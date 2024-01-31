@@ -13,6 +13,8 @@ Thank you for applying to a DevSoc project team for 2024. Our projects are proud
 
 ## Tasks
 
+![Unilectives](https://github.com/devsoc-unsw/24-recruitment-technical-frontend/blob/main/Unilectives.png?raw=true)  
+
 An image of the Unilectives site is provided above. 
 
 ### Main Task
