@@ -1,7 +1,7 @@
 # DevSoc 2024 Subcommittee Recruitment Frontend Technical
 
-Hi! 
-Thank you for applying to a DevSoc project team for 2024. Our projects are proudly maintained by student society volunteers like yourself who for many years have ideated, built and iterated the websites within our portfolios. 
+Howdy! 
+Thank you for applying to DevSoc project teams for 2024. Our projects are proudly maintained by student society volunteers like yourself who for many years have ideated, built and iterated the websites within our portfolios. 
 
 ## Overview and expectations
 
@@ -22,27 +22,29 @@ The goal of this part is for you to demonstrate your HTML, CSS and JS skills. Pl
 
 You are given the freedom to choose how you recreate this. 
 -	You may decide to use a single `.html` file. 
--	You can also use any frontend framework or library as the foundation to your page. 
+-	You can also use any frontend framework or library as the foundation of your page. 
 	-	These include but are not limited to `React`, `Angular`, `Vue` as well as `Next.js` or `Gatsby.js`.
 	-	We recommend following the Next.js [Getting Started](https://nextjs.org/docs/getting-started/installation) guide and building your page in the root file for your convenience - however please feel free to use whatever technologies you wish.
  -	The search bar and sort by dropdown do not need to work.
  -	Obviously matching every stylistic aspect of this page may be difficult and time-consuming. Prioritise large elements and structural features before you try to partially fill a rating start for example.
  -	You do not need to find exact matches for the fonts, icons or logos.
  -	You do not need to aim for perfection. Please only complete as much of this exercise as you wish focusing on demonstrating the breadth of your frontend knowledge. There is no requirement for perfection or pixel-precise matching.
- -	You do not need to account for responsive design. 
+ -	You do not need to account for responsive design.
+
+The sample data shown in the image is provided below in the [Appendix](#appendix) in `JSON` format.
 
 ### Stretch Task 1 
 The goal of this part is for you to demonstrate basic CSS transitions. Please make the colour of the title "Unilectives" change/alternate over time. 
 
 ### Stretch Task 2
-The goal of this part is for you to demonstrate basic JavaScript state management. Please make the title "Unilectives" clickable. Upon being clicked, a `div` should appear. The div should be any white box with a black outline, vertically and horizontally centred ontop of the content of the page. The div should contain in it, another button to dismiss the div. 
+The goal of this part is for you to demonstrate basic JavaScript state management. Please make the title "Unilectives" clickable. Upon being clicked, a `div` should appear. The `div` should be any white box with a black outline, vertically and horizontally centred on top of the content of the page. The `div` should contain in it, another button to dismiss the `div`. 
 
 ## Submission 
 Please provide a public link to your solution as hosted on GitHub. 
-If your solution is not run via a standard `npm i` `npm run dev` command, please provide a ReadMe that details how we can open your solution in our browser and any dependencies that we may need. 
+If your solution is not run via a standard `npm i` `npm run dev` command, please provide a `README.md` that details how we can open your solution in our browser and any dependencies that we may need. 
 
 ## Additional comment
-Whilst most of our frontend applicants tend to have frontend experience, either through self-study, work or COMP6080, we are open to candidates of varying experiences and abilities. The most important characteristics is one's curiosity and willingness to self-teach/learn. We have had frontend members join with little prior experience and go on to learn and contribute significantly. Therefore, if you find a lot of these exercises difficult, do not be disheartened - please make an attempt. 
+Whilst most of our frontend applicants tend to have frontend experience, either through self-study, work or COMP6080, we are open to candidates of varying experiences and abilities. The most important characteristics are one's curiosity and willingness to self-teach/learn. We have had frontend members join with little prior experience and go on to learn and contribute significantly. Therefore, if you find a lot of these exercises difficult, do not be disheartened - please make an attempt. 
 
 ## Appendix 
 ```
