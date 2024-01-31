@@ -18,9 +18,94 @@ Thank you for applying to a DevSoc project team for 2024. Our projects are proud
 An image of the Unilectives site is provided above. 
 
 ### Main Task
-The goal of this part is for you to recreate this image in a frontend environment. 
+The goal of this part is for you to demonstrate your HTML, CSS and JS skills. Please recreate this image in a frontend environment. 
+
 You are given the freedom to choose how you recreate this. 
 -	You may decide to use a single `.html` file. 
 -	You can also use any frontend framework or library as the foundation to your page. 
 	-	These include but are not limited to `React`, `Angular`, `Vue` as well as `Next.js` or `Gatsby.js`.
-	-	We reccommend following the Next.js [Getting Started](https://nextjs.org/docs/getting-started/installation) guide and building your page in the root file for your convienence - however please feel free to use whatever technologies you wish. 
+	-	We reccommend following the Next.js [Getting Started](https://nextjs.org/docs/getting-started/installation) guide and building your page in the root file for your convienence - however please feel free to use whatever technologies you wish.
+ -	The search bar and sort by dropdown do not need to work.
+ -	Obviously matching every stylistic aspect of this page may be difficult and time consuming. Prioritise large elements and structural features before you try to partially fill a rating start for example.
+ -	You do not need to find exact matches for the fonts, icons or logos.
+ -	You do not need to aim for perfection. Please only complete as much of this exercise as you wish focusing on demonstrating the breadth of your frontend knowledge. There is no requirement for perfection or pixel precise matching.
+ -	You do not need to account for responsive design. 
+
+### Stretch Task 1 
+The goal of this part is for you to demonstrate basic CSS transitions. Please make the colour of the title "Unilectives" change/alternate over time. 
+
+### Stretch Task 2
+The goal of this part is for you to demonstrate basic javascript state management. Please make the title "Unilectives" clickable. Upon being clicked, a `div` should appear. The div should be any white box with a black outline, vertically and horizontally centered ontop of the content of the page. The div should contain in it, another button to dismiss the div. 
+
+## Submission 
+Please provide a public link to your solution as hosted on Github. 
+If your solution is not run via a standard `npm i` `npm run dev` command, please provide a ReadMe that details how we can open your solution in our browser and any dependencies that we may need. 
+
+## Additional comment
+Whilst most of our frontend applicants tend to have frontend experience, either through self-study, work or COMP6080, we are open to candidates of varying experiences and abilities. The most important characteristic is one's flexibility and speed of learning. We have had frontend members join with little prior experience and go on to learn and contribute significantly. Therefore, if you find alot of these exercises difficult, do not be disheartended - please make an attempt. 
+
+## Appendix 
+```
+[
+  {
+    "course_prefix": "COMP",
+    "course_code": 1511,
+    "course_title": "Programming Fundamentals",
+    "average_stars": 4.8,
+    "total_reviews": 68,
+    "offerred_terms": [
+      "Term 1", "Term 2", "Term 3"
+    ]
+  },
+  {
+    "course_prefix": "COMP",
+    "course_code": 1531,
+    "course_title": "Software Engineering Fundamentals",
+    "average_stars": 3.9,
+    "total_reviews": 47,
+    "offerred_terms": [
+      "Term 1", "Term 2", "Term 3"
+    ]
+  },
+  {
+    "course_prefix": "COMP",
+    "course_code": 1521,
+    "course_title": "Computer Systems Fundamentals",
+    "average_stars": 4,
+    "total_reviews": 40,
+    "offerred_terms": [
+      "Term 1", "Term 2", "Term 3"
+    ]
+  },
+  {
+    "course_prefix": "COMP",
+    "course_code": 2521,
+    "course_title": "Data Structures and Algorithms",
+    "average_stars": 4,
+    "total_reviews": 36,
+    "offerred_terms": [
+      "Summer", "Term 1", "Term 2", "Term 3"
+    ]
+  },
+  {
+    "course_prefix": "COMP",
+    "course_code": 2511,
+    "course_title": "Object-Oriented Design & Programming",
+    "average_stars": 3,
+    "total_reviews": 33,
+    "offerred_terms": [
+      "Term 1", "Term 2", "Term 3"
+    ]
+  },
+  {
+    "course_prefix": "COMP",
+    "course_code": 3311,
+    "course_title": "Database Systems",
+    "average_stars": 4,
+    "total_reviews": 33,
+    "offerred_terms": [
+      "Term 1", "Term 3"
+    ]
+  }
+]
+```
