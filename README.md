@@ -1,1 +1,1 @@
-# 24-recruitment-technical-frontend
+# DevSoc 2024 Subcommittee Recruitment Frontend Technical
