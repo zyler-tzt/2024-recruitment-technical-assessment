@@ -47,7 +47,7 @@ If your solution is not run via a standard `npm i` `npm run dev` command, please
 Whilst most of our frontend applicants tend to have frontend experience, either through self-study, work or COMP6080, we are open to candidates of varying experiences and abilities. The most important characteristics are one's curiosity and willingness to self-teach/learn. We have had frontend members join with little prior experience and go on to learn and contribute significantly. Therefore, if you find a lot of these exercises difficult, do not be disheartened - please make an attempt. 
 
 ## Appendix 
-```
+```json
 [
   {
     "course_prefix": "COMP",
