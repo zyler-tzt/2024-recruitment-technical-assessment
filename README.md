@@ -42,7 +42,7 @@ Please provide a public link to your solution as hosted on Github.
 If your solution is not run via a standard `npm i` `npm run dev` command, please provide a ReadMe that details how we can open your solution in our browser and any dependencies that we may need. 
 
 ## Additional comment
-Whilst most of our frontend applicants tend to have frontend experience, either through self-study, work or COMP6080, we are open to candidates of varying experiences and abilities. The most important characteristic is one's flexibility and speed of learning. We have had frontend members join with little prior experience and go on to learn and contribute significantly. Therefore, if you find alot of these exercises difficult, do not be disheartended - please make an attempt. 
+Whilst most of our frontend applicants tend to have frontend experience, either through self-study, work or COMP6080, we are open to candidates of varying experiences and abilities. The most important characteristics is one's curiosity and willingness to self-teach/learn. We have had frontend members join with little prior experience and go on to learn and contribute significantly. Therefore, if you find alot of these exercises difficult, do not be disheartended - please make an attempt. 
 
 ## Appendix 
 ```
