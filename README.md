@@ -18,7 +18,7 @@ Thank you for applying to DevSoc project teams for 2024. Our projects are proudl
 An image of the [Unilectives](https://unilectives.csesoc.app/) site is provided above. 
 
 ### Main Task
-The goal of this part is for you to demonstrate your HTML, CSS and JS skills. Please recreate this image in a frontend environment. 
+The goal of this part is for you to demonstrate your HTML, CSS and JS/TS skills. Please recreate this image in a frontend environment. 
 
 You are given the freedom to choose how you recreate this. 
 -	You may decide to use a single `.html` file. 
@@ -34,10 +34,10 @@ You are given the freedom to choose how you recreate this.
 The sample data shown in the image is provided below in the [Appendix](#appendix) in `JSON` format.
 
 ### Stretch Task 1 
-The goal of this part is for you to demonstrate basic CSS transitions. Please make the colour of the title "Unilectives" change/alternate over time. 
+The goal of this part is for you to demonstrate component state management. Please make the colour of the title "Unilectives" change when clicked.
 
 ### Stretch Task 2
-The goal of this part is for you to demonstrate basic JavaScript state management. Please make the title "Unilectives" clickable. Upon being clicked, a `div` should appear. The `div` should be any white box with a black outline, vertically and horizontally centred on top of the content of the page. The `div` should contain in it, another button to dismiss the `div`. 
+The goal of this part is for you to demonstrate interation with your site. Please make the search bar clickable. Upon being clicked, a `div` should appear. The `div` should be any simple, blank white box with a black outline, vertically and horizontally centred on top of the content of the page. The `div` should contain in it, another button to dismiss the `div`. 
 
 ## Submission 
 Please provide a public link to your solution as hosted on GitHub. 
