@@ -31,7 +31,7 @@ You are given the freedom to choose how you recreate this.
  -	You do not need to aim for perfection. Please only complete as much of this exercise as you wish focusing on demonstrating the breadth of your frontend knowledge. There is no requirement for perfection or pixel-precise matching.
  -	You do not need to account for responsive design.
 
-The sample data shown in the image is provided below in the [Appendix](#appendix) in `JSON` format.
+The sample data shown in the image is provided both in the `courses.json` file and below in the [Appendix](#appendix) in `JSON` format.
 
 ### Stretch Task 1 
 The goal of this part is for you to demonstrate component state management. Please make the colour of the title "Unilectives" change when clicked.
