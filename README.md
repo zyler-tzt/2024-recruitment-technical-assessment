@@ -55,7 +55,7 @@ Whilst most of our frontend applicants tend to have frontend experience, either 
     "course_title": "Programming Fundamentals",
     "average_stars": 4.8,
     "total_reviews": 68,
-    "offerred_terms": [
+    "offered_terms": [
       "Term 1", "Term 2", "Term 3"
     ]
   },
@@ -65,7 +65,7 @@ Whilst most of our frontend applicants tend to have frontend experience, either 
     "course_title": "Software Engineering Fundamentals",
     "average_stars": 3.9,
     "total_reviews": 47,
-    "offerred_terms": [
+    "offered_terms": [
       "Term 1", "Term 2", "Term 3"
     ]
   },
@@ -75,7 +75,7 @@ Whilst most of our frontend applicants tend to have frontend experience, either 
     "course_title": "Computer Systems Fundamentals",
     "average_stars": 4,
     "total_reviews": 40,
-    "offerred_terms": [
+    "offered_terms": [
       "Term 1", "Term 2", "Term 3"
     ]
   },
@@ -85,7 +85,7 @@ Whilst most of our frontend applicants tend to have frontend experience, either 
     "course_title": "Data Structures and Algorithms",
     "average_stars": 4,
     "total_reviews": 36,
-    "offerred_terms": [
+    "offered_terms": [
       "Summer", "Term 1", "Term 2", "Term 3"
     ]
   },
@@ -95,7 +95,7 @@ Whilst most of our frontend applicants tend to have frontend experience, either 
     "course_title": "Object-Oriented Design & Programming",
     "average_stars": 3,
     "total_reviews": 33,
-    "offerred_terms": [
+    "offered_terms": [
       "Term 1", "Term 2", "Term 3"
     ]
   },
@@ -105,7 +105,7 @@ Whilst most of our frontend applicants tend to have frontend experience, either 
     "course_title": "Database Systems",
     "average_stars": 4,
     "total_reviews": 33,
-    "offerred_terms": [
+    "offered_terms": [
       "Term 1", "Term 3"
     ]
   }
