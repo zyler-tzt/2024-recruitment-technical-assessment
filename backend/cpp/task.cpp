@@ -33,11 +33,6 @@ int largestFileSize(std::vector<File> files) {
     return 0;
 }
 
-
-int qsortStrcmp(const void *a, const void *b) {
-    return strcmp(*(char **)a, *(char **)b);
-}
-
 int main(void) {
     std::vector<File> testFiles{
         { .id = 1, .name = "Document.txt", .categories = {"Documents"}, .numCategories = 1, .parent = 3, .size = 1024 },
