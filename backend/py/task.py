@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from collections import defaultdict
 
 @dataclass
 class File:
@@ -13,22 +14,50 @@ class File:
 Task 1
 """
 def leafFiles(files: list[File]) -> list[str]:
-    return []
+    namelist = list()
+    for file in files:
+        isParentOf = filter(lambda x: x.parent == file.id, files)
+        parentOf = list(isParentOf)
+        if len(parentOf) == 0:
+            namelist.append(file.name)
+    return namelist
 
 
 """
 Task 2
 """
+
 def kLargestCategories(files: list[File], k: int) -> list[str]:
-    return []
+    categoryFrequency = {}
+    for file in files:
+        for cat in file.categories:
+            if not cat in categoryFrequency:
+                categoryFrequency[cat] = 0
+            categoryFrequency[cat] += 1
+    categoryFrequency = sorted(categoryFrequency.items(), key=lambda x: (-x[1],x[0]))
+    kCat = list(dict(categoryFrequency).keys())[:k]
+    return kCat
 
 
 """
 Task 3
 """
 def largestFileSize(files: list[File]) -> int:
-    return 0
-
+    fileSizeDict = {}
+    for file in files:
+        fileSizeDict[file.name] = 0
+    for file in files:
+        currentFile = file
+        fileSizeDict[file.name] += file.size
+        while not currentFile.parent == -1:
+            child = currentFile
+            currentFile = list(filter(lambda x: x.id == currentFile.parent, files))[0]
+            fileSizeDict[currentFile.name] += file.size
+    largestSize = 0
+    for key in fileSizeDict:
+        if fileSizeDict[key] > largestSize:
+            largestSize = fileSizeDict[key]
+    return largestSize
 
 if __name__ == '__main__':
     testFiles = [
@@ -57,6 +86,8 @@ if __name__ == '__main__':
         "Spreadsheet2.xlsx",
         "Video.mp4"
     ]
+
+    
 
     assert kLargestCategories(testFiles, 3) == [
         "Documents", "Folder", "Media"
