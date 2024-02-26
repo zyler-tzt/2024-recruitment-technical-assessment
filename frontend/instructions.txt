@@ -1,2 +1,1 @@
-Please detail the instructions to view your solution here:
-
+Please change directory into the folder "index/src" before running "npm install" and "npm start"
